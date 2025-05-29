@@ -19,7 +19,6 @@ public class AppTest {
     void t2(){
         App app = new App();
         int rs = app.plus(10,20);
-
         assertEquals(30, rs);
     }
 }
