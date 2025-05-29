@@ -21,4 +21,12 @@ public class AppTest {
         int rs = app.plus(10,20);
         assertEquals(30, rs);
     }
+
+    @Test
+    @DisplayName("0 + 5 == 5")
+    void t3(){
+        App app = new App();
+        int rs = app.plus(0,5);
+        assertEquals(5, rs);
+    }
 }
